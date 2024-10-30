@@ -1,5 +1,5 @@
 import { PostInfo } from '../PostInfo';
-// users
+
 export const PostList = ({ posts }) => (
   <div className="PostList">
     {posts.map(post => (
